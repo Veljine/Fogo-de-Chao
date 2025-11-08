@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df8cde64-fc40-4d9c-a966-0b3d6540fcac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/actions/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auth/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/auth.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,7 @@
       <workItem from="1762583011820" duration="1156000" />
       <workItem from="1762584552190" duration="3587000" />
       <workItem from="1762588263841" duration="205000" />
-      <workItem from="1762588609284" duration="4868000" />
+      <workItem from="1762588609284" duration="5196000" />
     </task>
     <servers />
   </component>
