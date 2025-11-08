@@ -68,12 +68,12 @@ export const useIngredientStore = create<IngredientState>((set) => ({
         set({ error: null });
 
         try {
-            const result = await deleteIngredient(id);
+            const result = await deleteIngredient(Number(id));
 
             if (result.success) {
                 set((state) => ({
                     ingredients: state.ingredients.filter(
-                        (ingredient) => ingredient.id !== id
+                        (ingredient) => ingredient.id !== Number(id)
                     ),
                     isLoading: false
                 }));
